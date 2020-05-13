@@ -1,0 +1,14 @@
+@import url('./_is-hidden/not-logged-in_is-hidden.css');
+
+.not-logged-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+    .not-logged-in {
+        flex-direction: column;
+    }
+}

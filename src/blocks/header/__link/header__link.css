@@ -1,0 +1,24 @@
+@import url('./_type_black/header__link_type_black.css');
+@import url('./_type_white/header__link_type_white.css');
+
+.header__link {
+    margin-right: 2vw;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: inherit;
+    font-family: 'Roboto';
+}
+
+@media screen and (max-width: 850px) {
+    .header__link {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header__link {
+      margin: 30px auto 0 5vw;
+  }
+}

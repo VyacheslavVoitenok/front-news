@@ -1,0 +1,14 @@
+@import url('./_is-hidden/logged-in_is-hidden.css');
+
+.logged-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+    .logged-in {
+        flex-direction: column;
+    }
+}

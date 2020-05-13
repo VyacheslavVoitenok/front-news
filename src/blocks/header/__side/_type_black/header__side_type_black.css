@@ -1,0 +1,7 @@
+.header__side_type_black {
+    background-image: url(../../../../images/side-icon-type-black.png);
+}
+/* заменить картинку на черный крестик */
+.header__side_type_black:active {
+    background-image: url(../../../../images/side-icon-type-black.png);
+}

@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Webpack</title>
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Войтенок Вясеслав">
+        <meta name="description" content="NewsExplorer - поисковик новостей по ключевым словам">
+        <link rel="icon" href="./images/favicon.png" type="image/svg" sizes="16x16">
+        <title>NewsExplorer</title>
+        <link rel="stylesheet" href="./index.css">
+      </head>
 </head>
+
 <body>
-    <h1>Hello</h1>
-    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+    <!-- хэдер -->
+    <header class="header header_type_white">
+        <p class="header__logo">NewsExplorer</p>
+        <nav class="header__navigation">
+          <div class="header__side header__side_type_white" tabindex="1"></div>
+
+          <ul class="header__items header__items_type_white">
+            <li class="header__item">
+              <a class="link header__link header__link_type_white" href="#">Главная</a>
+            </li>
+            <li class="header__item">
+              <a class="link header__link header__link_authorized" href="">Сохраненные статьи</a>
+            </li>
+            <li class="header__item">
+              <button class="button authorization__button authorization__button_authorized">Грета
+                <img class="authorization__image" src="./images/Exit-icon-white.png" alt="Выйти"></button>
+            </li>
+            <li class="header__item">
+              <button class="button button_is-hidden authorization__button authorization__button_not-authorized">Авторизоваться</button>
+            </li>
+          </ul>
+          
+        </nav>
+      </header>
+
+      <script src="./index.js"></script>
 </body>
 </html>

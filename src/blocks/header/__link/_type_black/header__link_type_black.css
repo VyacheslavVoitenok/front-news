@@ -1,0 +1,11 @@
+.header__link_type_black {
+  padding-bottom: 22px;
+  border-bottom: 3px solid #1a1b22;
+}
+
+@media screen and (max-width: 550px) {
+  .header__link_type_black {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}

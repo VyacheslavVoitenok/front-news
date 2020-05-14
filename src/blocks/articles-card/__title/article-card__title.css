@@ -1,0 +1,21 @@
+.article-card__title {
+    margin: 0;
+    margin-bottom: 1.1vw;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 1.1;
+    color: #1a1b22;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 850px) {
+    .article-card__title {
+        font-size: 1.4rem;
+    }
+}

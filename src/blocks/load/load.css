@@ -1,0 +1,13 @@
+@import url('./__image/load__image.css');
+@import url('./__message/load__message.css');
+@import url('./_is-opened/load_is-opened.css');
+
+.load {
+    width: 100%;
+    min-height: 282px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f5f6f7;
+}

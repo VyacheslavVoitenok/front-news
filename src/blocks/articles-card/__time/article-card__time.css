@@ -1,0 +1,11 @@
+.article-card__time {
+    margin: 0;
+    margin-bottom: 12px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #b6bcbf;
+    align-self: flex-start;
+}

@@ -1,0 +1,30 @@
+.article-card__icon {
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+    display: block;
+    transition: background 0.5s linear;
+}
+
+.article-card__icon:hover + .article-card__tooltip {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1050px) {
+    .article-card__icon {
+        top: 16px;
+        right: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .article-card__icon {
+        top: 8px;
+        right: 8px;
+    }
+}

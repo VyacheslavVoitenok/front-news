@@ -1,0 +1,10 @@
+.load__message {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #b6bcbf;
+    margin: 0;
+}

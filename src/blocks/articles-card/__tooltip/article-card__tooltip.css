@@ -1,0 +1,51 @@
+.article-card__tooltip {
+    width: 182px;
+    height: 40px;
+    position: absolute;
+    top: 24px;
+    right: 69px;
+    background: #fff;
+    box-shadow: 0px 10px 22px rgba(59, 74, 116, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.6rem;
+    line-height: 1.2;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+@media screen and (max-width: 1050px) {
+    .article-card__tooltip {
+        top: 16px;
+        right: 61px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .article-card__tooltip {
+        top: 8px;
+        right: 53px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .article-card__tooltip {
+        top: 56px;
+        right: 8px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .article-card__tooltip {
+        top: 8px;
+        right: 53px;
+    }
+}

@@ -2,3 +2,8 @@
 @import url('./blocks/button/button.css');
 @import url('./blocks/main-search/main-search.css');
 @import url('./blocks/search/search.css');
+@import url('./blocks/load/load.css');
+@import url('./blocks/nothing-found/nothing-found.css');
+@import url('./blocks/articles/articles.css');
+@import url('./blocks/articles-card/article-card.css');
+@import url('./blocks/articles-list/articles-list.css');

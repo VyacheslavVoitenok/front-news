@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <section class="main-search">
     <!-- хэдер -->
     <header class="header header_type_white">
         <p class="header__logo">NewsExplorer</p>
@@ -38,6 +39,18 @@
         </nav>
       </header>
 
-      <script src="./index.js"></script>
+      <!-- Инпут поиска -->
+      <div class="search">
+        <h1 class="search__title">Что в мире творится?</h1>
+        <h3 class="search__subtitle">Находите самые свежие статьи на любую тему и сохраняйте в своёмличном кабинете.</h3>
+        <form class="search__form">
+          <input class="search__input" type="text" name="search" minlength="2" maxlength="40" placeholder="Введите тему новости" required>
+          <button class="button search__button" type="submit" name="submit">Искать</button>
+        </form>
+      </div>
+
+  </section>
+
+  <script src="./index.js"></script>
 </body>
 </html>

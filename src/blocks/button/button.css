@@ -1,0 +1,5 @@
+@import url('./_is-hidden/button_is-hidden.css');
+
+.button {
+  border-radius: 100px;
+}

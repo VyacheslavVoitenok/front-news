@@ -1,0 +1,14 @@
+.popup__close {
+    width: 40px;
+    position: absolute;
+    top: -36px;
+    right: -36px;
+    cursor: pointer;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  @media screen and (max-width: 768px) {
+    .popup__close {
+      display: none;
+    }
+  }

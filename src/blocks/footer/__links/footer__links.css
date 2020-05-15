@@ -1,0 +1,26 @@
+@import url('./__link/footer__link.css');
+
+.footer__links {
+    display: flex;
+    margin: 0;
+    margin-right: 104px;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__links {
+    margin-right: 7vw;
+  }
+}
+
+@media screen and (max-width: 950px) {
+    .footer__links {
+        margin-right: 6vw;
+    }
+}
+
+@media screen and (max-width: 735px) {
+  .footer__links {
+      width: 88%;
+      margin: 20px auto 0 auto;
+  }
+}

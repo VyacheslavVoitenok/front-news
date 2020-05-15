@@ -1,0 +1,23 @@
+.footer__item {
+  margin-left: 3vw;
+  position: relative;
+}
+
+@media screen and (max-width: 735px) {
+  .footer__item {
+      margin-left: 0;
+      margin-bottom: 10px;
+  }
+
+  .footer__item:last-of-type {
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 3;
+      grid-column-end: 4;
+      margin-left: auto;
+  }
+
+  .footer__item:nth-of-type(3) {
+      margin-left: auto;
+  }
+}

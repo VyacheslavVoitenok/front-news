@@ -1,0 +1,14 @@
+.footer__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #1a1b22;
+    transition: opacity 0.3s linear;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+}

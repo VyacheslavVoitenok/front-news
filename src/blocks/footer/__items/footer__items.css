@@ -1,0 +1,19 @@
+.footer__items {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 735px) {
+  .footer__items {
+      width: 100%;
+      display: grid;
+      grid-auto-flow: column;
+      grid-template-columns: 70% 15% 15%;
+      grid-template-rows: 50% 50%;
+      grid-column-gap: 0;
+      grid-row-gap: 0;
+      justify-content: flex-start;
+  }
+}

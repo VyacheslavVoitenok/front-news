@@ -1,0 +1,41 @@
+@import url('./__avatar/author__avatar.css');
+@import url('./__title/author__title.css');
+@import url('./__article/author__article.css');
+
+.author {
+    width: 100%;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    display: grid;
+    grid-template-columns: 7% 33% 47% 13%;
+    grid-template-rows: 34% 66%;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    background: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .author {
+        grid-template-rows: 29% 71%;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .author {
+        grid-template-columns: 7% 33% 53% 7%;
+        grid-template-rows: 24% 76%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .author {
+        grid-template-rows: 20% 80%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .author {
+        display: flex;
+        flex-direction: column;
+    }
+}

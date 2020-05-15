@@ -1,0 +1,17 @@
+.author__avatar {
+    width: 98%;
+    object-fit: contain;
+    align-self: center;
+    justify-self: flex-start;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+@media screen and (max-width: 530px) {
+    .author__avatar {
+        width: 90%;
+        margin-bottom: 6vw;
+    }
+}

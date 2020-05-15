@@ -1,0 +1,17 @@
+@import url('./__paragraph/author__paragraph.css');
+
+.author__article {
+    align-self: start;
+    margin-top: 1.5rem;
+    margin-left: 4vw;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+@media screen and (max-width: 530px) {
+    .author__article {
+        margin-right: 4vw;
+    }
+}

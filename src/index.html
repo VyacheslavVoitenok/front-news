@@ -3,11 +3,11 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="author" content="Войтенок Вясеслав">
+      <meta name="author" content="Войтенок Вячеслав">
       <meta name="description" content="NewsExplorer - поисковик новостей по ключевым словам">
-      <link rel="icon" href="./images/favicon.png" type="image/svg" sizes="16x16">
+      <link rel="icon" href="<%=require('./images/favicon.svg')%>" type="image/svg" sizes="16x16">
       <title>NewsExplorer</title>
-      <link rel="stylesheet" href="./index.css">
+      <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
       </head>
 </head>
 
@@ -15,7 +15,7 @@
   <div class="background">
     <div class="page">
       <section class="main-search">
-        
+
         <!--хэдер -->
         <header class="header header_type_white">
           <p class="header__logo">NewsExplorer</p>
@@ -29,11 +29,11 @@
                 <a class="link header__link header__link_type_white" href="#">Главная</a>
               </li>
               <li class="header__item">
-                <a class="link header__link header__link_authorized" href="#">Сохраненные статьи</a>
+                <a class="link header__link header__link_authorized" href="./secondary/index.html">Сохраненные статьи</a>
               </li>
               <li class="header__item">
                 <button class="button authorization__button authorization__button_authorized">Грета
-                <img class="authorization__image" src="./images/Exit-icon-white.png" alt="Выйти"></button>
+                <img class="authorization__image" src="<%=require('./images/Exit-icon-white.png')%>" alt="Выйти"></button>
               </li>
               <li class="header__item">
                 <button class="button button_is-hidden authorization__button authorization__button_not-authorized">Авторизоваться</button>
@@ -128,7 +128,7 @@
               </p>
               <p class="article-card__sourse">Риа</p>
             </div>
-            
+
           </div>
         </div>
 
@@ -136,11 +136,11 @@
       </section>
 
       <section class="author">
-        <img class="author__avatar" src="./images/image-03.png" alt="Портрет автора">
+        <img class="author__photo" src="<%=require('./images/image-03.png')%>" alt="Фото автора проекта">
         <h2 class="author__title">Об авторе</h2>
         <div class="author__article">
-          <p class="author__paragraph">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
-          <p class="author__paragraph">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+          <p class="author__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+          <p class="author__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
         </div>
       </section>
 
@@ -205,7 +205,7 @@
             <span class="error-message" id="reg-email">Неправильный формат email</span>
             <label class="input__label">Пароль</label>
             <input type="text" name="reg-password" id="registration-password"
-            pattern="(?=.*[0-9])(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z!@#$%^&*]{6,}" class="popup__input popup__input_type_password" 
+            pattern="(?=.*[0-9])(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z!@#$%^&*]{6,}" class="popup__input popup__input_type_password"
             placeholder="Введите пароль" required>
             <span class="error-message" id="reg-password"></span>
             <label class="input__label">Имя</label>
@@ -232,7 +232,6 @@
 
     </div>
   </div>
-
-  <script src="./index.js"></script>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
 </html>

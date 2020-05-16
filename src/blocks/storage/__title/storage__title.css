@@ -1,0 +1,17 @@
+.storage__title {
+    width: 37%;
+    margin: 0 auto 2vh 7vw;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 1.15;
+    color: #1a1b22;
+}
+
+@media screen and (max-width: 840px) {
+    .storage__title {
+        margin-left: 5vw;
+        font-size: 1.9rem;
+    }
+}

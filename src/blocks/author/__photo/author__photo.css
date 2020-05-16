@@ -1,4 +1,4 @@
-.author__avatar {
+.author__photo {
     width: 98%;
     object-fit: contain;
     align-self: center;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 530px) {
-    .author__avatar {
+    .author__photo {
         width: 90%;
         margin-bottom: 6vw;
     }

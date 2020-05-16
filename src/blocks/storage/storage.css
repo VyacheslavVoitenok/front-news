@@ -1,0 +1,10 @@
+@import url('./__subtitle/storage__subtitle.css');
+@import url('./__title/storage__title.css');
+@import url('./__keywords/storage__keywords.css');
+
+.storage {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}

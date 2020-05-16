@@ -13,15 +13,3 @@
     background-size: cover;
     color: #ffffff;
 }
-
-@media screen and (max-width: 1200px) {
-    .header {
-        min-height: 47vw;
-    }
-}
-
-@media screen and (max-width: 950px) {
-    .header {
-        min-height: 52vw;
-    }
-}

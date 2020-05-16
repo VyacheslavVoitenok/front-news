@@ -1,0 +1,19 @@
+@import url('./__keyword/storage__keyword.css');
+
+.storage__keywords {
+    margin: 0 auto 4vw 7vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #1a1b22;
+}
+
+@media screen and (max-width: 840px) {
+    .storage__keywords {
+        margin-left: 5vw;
+        margin-bottom: 3vw;
+        font-size: 0.9rem;
+    }
+}

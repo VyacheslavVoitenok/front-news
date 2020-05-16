@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Войтенок Вячеслав">
+        <meta name="description" content="NewsExplorer - поисковик новостей по ключевым словам">
+        <link rel="icon" href=".././images/favicon.svg" type="image/svg" sizes="16x16">
+        <title>NewsExplorer</title>
+        <link rel="stylesheet" href="../secondary/secondary.d4a3ad800fc9cce2b922.css">
+    </head>
+<body>
+    <div class="background">
+        <div class="page">
+            <!-- хэдер -->
+            <header class="header header_type_black">
+                <p class="header__logo">NewsExplorer</p>
+                <nav class="header__navigation">
+                  <div class="header__side header__side_type_black" tabindex="1"></div>
+                  <ul class="header__items header__items_type_black">
+                    <li class="header__item">
+                      <a class="link header__link" href="../index.html">Главная</a>
+                    </li>
+                    <li class="header__item">
+                      <a class="link header__link header__link_type_black" href="#">Сохраненные статьи</a>
+                    </li>
+                    <li class="header__item">
+                      <button class="button authorization__button">Грета <img class="authorization__image"
+                          src=".././images/Exit-icon-black.png" alt="Выйти"></button>
+                    </li>
+                  </ul>
+                </nav>
+              </header>
+
+              <section class="storage">
+                <h4 class="storage__subtitle">Сохранённые статьи</h4>
+                <h1 class="storage__title">Грета, у вас 5 сохранённых статей</h1>
+                <h3 class="storage__keywords">По ключевым словам: <span class="storage__keyword">Природа, Тайга и 2 другим</span></h3>
+              </section>
+
+              <section class="saved-news">
+                <div class="articles-list">
+                  <!--Пример карточки-->
+                  <div class="article-card">
+                    <div class="article-card__image"></div>
+                    <div class="article-card__keyword">
+                      <p class="article-card__keyword-text">Природа</p>
+                    </div>
+                    <button class="article-card__icon article-card__icon_type_delete" type="button"></button>
+                    <div class="article-card__tooltip">
+                      <p class="article-card__tooltip-text">Убрать из сохранённых</p>
+                    </div>
+                    <div class="article-card__article">
+                      <span class="article-card__date">2 августа, 2019</span>
+                      <h3 class="article-card__title">Национальное достояние – парки</h3>
+                      <p class="article-card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь
+                        начала складываться система национальных парков – охраняемых территорий, где и сегодня
+                        каждый может приобщиться к природе.</p>
+                      <p class="article-card__sourse">Лента.ру</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <footer class="footer">
+                <p class="footer__copyright">&#169; 2020 Supersite, Powered by News API</p>
+                <nav class="footer__links">
+                  <ul class="footer__items">
+                    <li class="footer__item">
+                      <a class="link footer__link" href="#">Главная</a>
+                    </li>
+                    <li class="footer__item">
+                      <a class="link footer__link" href="https://praktikum.yandex.ru/web/" target="_blank">Яндекс.Практикум</a>
+                    </li>
+                    <li class="footer__item">
+                      <a class="footer__link" href="https://github.com/Mlenizyaka" target="_blank"><img
+                          class="footer__social-icon" src=".././images/Vector-GH.svg" alt="GitHub"></a>
+                    </li>
+                    <li class="footer__item">
+                      <a class="footer__link" href="https://www.facebook.com/profile.php?id=100002918287725"
+                        target="_blank"><img class="footer__social-icon" src=".././images/Vector-FB.svg"
+                          alt="Facebook"></a>
+                    </li>
+                  </ul>
+                </nav>
+              </footer>
+        </div>
+    </div>
+    <script src="../secondary/secondary.048dd97f94bbfcb260a5.js"></script>
+</body>
+</html>

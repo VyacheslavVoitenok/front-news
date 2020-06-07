@@ -1,0 +1,11 @@
+.article-card__icon_type_save {
+    background: url(../../../images/save-icon_normal.png) center no-repeat;
+}
+
+.article-card__icon_type_save:active {
+    background: url(../../../images/save-icon_marked.png) center no-repeat;
+}
+
+.article-card__icon_type_save:hover {
+    background: url(../../../images/save-icon_hover.png) center no-repeat;
+}

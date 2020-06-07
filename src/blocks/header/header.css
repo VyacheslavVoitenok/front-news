@@ -1,0 +1,41 @@
+@import url('./__logo/header__logo.css');
+@import url('./authorization__button/authorization__button.css');
+@import url('./__navigation/header__navigation.css');
+@import url('./__link/header__link.css');
+@import url('./saved-news__hidden/saved-news__hidden.css');
+@import url('./_type_black/header_type_black.css');
+@import url('./_type_white/header_type_white.css');
+@import url('./logged-in/logged-in.css');
+@import url('./not-logged-in/not-logged-in.css');
+@import url('./__side/header__side.css');
+@import url('./__side/_type_white/header__side_type_white.css');
+@import url('./__side/_type_black/header__side_type_black.css');
+@import url('./__items/header__items.css');
+@import url('./__item/header__item.css');
+
+.header {
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 1440px) {
+  .header {
+    min-height: 5vw;;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+    .header {
+        min-height: 6vw;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .header {
+        min-height: 7.8vw;
+    }
+}

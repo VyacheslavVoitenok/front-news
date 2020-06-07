@@ -1,0 +1,22 @@
+.author__title {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 1.15;
+    color: #1a1b22;
+    margin: 0;
+    margin-left: 4vw;
+    align-self: end;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+@media screen and (max-width: 940px) {
+    .author__title {
+        font-size: 1.9rem;
+        line-height: 1.3;
+    }
+}

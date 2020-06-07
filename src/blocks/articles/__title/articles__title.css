@@ -1,0 +1,44 @@
+.articles__title {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    color: #1a1b22;
+    margin-bottom: 64px;
+    margin-top: 0;
+    margin-left: 104px;
+}
+
+@media screen and (max-width: 1440px) {
+  .articles__title {
+    margin-left: 7vw;
+    margin-bottom: 4vw;
+  }
+}
+
+@media screen and (max-width: 840px) {
+    .articles__title {
+        width: 90%;
+        margin-left: 5vw;
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .articles__title {
+        margin-left: 8vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .articles__title {
+        margin-left: 7vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .articles__title {
+        margin-left: 5vw;
+    }
+}

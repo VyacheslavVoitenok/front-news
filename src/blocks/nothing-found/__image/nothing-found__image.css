@@ -1,0 +1,20 @@
+.nothing-found__image {
+    width: 96px;
+    height: 96px;
+    margin: 5vw auto 2.8vw auto;
+    background-image: url('../../../images/not-found_v1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    .nothing-found__subtitle {
+        margin-top: 8vw;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .nothing-found__subtitle {
+        margin-top: 10vw;
+    }
+}

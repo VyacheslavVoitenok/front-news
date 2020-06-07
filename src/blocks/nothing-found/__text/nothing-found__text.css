@@ -1,0 +1,43 @@
+.nothing-found__text {
+    width: 20%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #b6bcbf;
+    margin: 0 auto 5vw auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .nothing-found__text {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nothing-found__text {
+        width: 40%;
+        margin-bottom: 7vw;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .nothing-found__text {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .nothing-found__text {
+        width: 60%;
+        margin-bottom: 9vw;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .nothing-found__text {
+        width: 80%;
+    }
+}

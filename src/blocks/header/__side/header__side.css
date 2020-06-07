@@ -1,0 +1,20 @@
+.header__side {
+    display: none;
+    width: 24px;
+    height: 24px;
+
+}
+
+@media screen and (max-width: 550px) {
+    .header__side {
+        display: block;
+        position: relative;
+        z-index: 3;
+    }
+/* сейчас реализовано только для просмотра блока. Сделаю с помощью js как и открытие попапов*/
+    .header__side:focus~.header__items,
+    .header__side:active~.header__items,
+    .header__items:hover {
+        display: flex;
+    }
+}

@@ -1,0 +1,33 @@
+.article-card__article {
+    padding: 20px 24px;
+    height: 304px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 1440px) {
+  .article-card__article {
+    padding: 1.4vw 1.6vw;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+    .article-card__article {
+        height: 58%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .article-card__article {
+        height: 63%;
+        padding: 2vw 2vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .article-card__article {
+        padding: 5vw 5vw;
+    }
+}

@@ -1,0 +1,33 @@
+@import url('./_is-opened/popup_is-opened.css');
+@import url('./__content/popup__content.css');
+@import url('./__close/popup__close.css');
+@import url('./__title/popup__title.css');
+@import url('./__form/popup__form.css');
+@import url('./__input/popup__input.css');
+@import url('./__error-message/error-message.css');
+@import url('./__button/popup__button.css');
+@import url('./__login-option/popup__login-option.css');
+@import url('./__link/popup__link.css');
+@import url('./_type_login/popup_type_login.css');
+@import url('./_type_registration/popup_type_registration.css');
+@import url('./_type_registered/popup_type_registered.css');
+
+.popup {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+    .popup {
+        box-sizing: border-box;
+        padding-top: 60px;
+        align-items: flex-start;
+    }
+  }

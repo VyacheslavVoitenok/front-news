@@ -1,0 +1,7 @@
+.header__side_type_white {
+    background-image: url(../../../../images/side-icon-type-white.png);
+}
+
+.header__side_type_white:hover {
+    background: url(../../../../images/side-icon-close-type-white.png);
+}

@@ -1,0 +1,39 @@
+.search__title {
+    width: 70%;
+    margin-top: 80px;
+    margin-bottom: 32px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.75rem;
+    line-height: 1.1;
+}
+
+@media screen and (max-width: 1200px) {
+    .search__title {
+        width: 80%;
+        font-size: 3rem;
+        margin-top: 5.5vw;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .search__title {
+        width: 70%;
+        font-size: 2.25rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .search__title {
+        width: 70%;
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .search__title {
+        width: 95%;
+        font-size: 2.25rem;
+    }
+}

@@ -1,0 +1,17 @@
+@import url('./__input/search__input.css');
+@import url('./search__button/search__button.css');
+
+.search__form {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .search__form {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,51 @@
+@import url('./__title/search__title.css');
+@import url('./__subtitle/search__subtitle.css');
+@import url('./__form/search__form.css');
+
+.search {
+    width: 608px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1440px) {
+    .search {
+        width: 42%;
+        margin-bottom: 5.5vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .search {
+        width: 50%;
+        margin-bottom: 5.9vw;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .search {
+        width: 58%;
+        margin-bottom: 6.25vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .search {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .search {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .search {
+        width: 90%;
+    }
+}

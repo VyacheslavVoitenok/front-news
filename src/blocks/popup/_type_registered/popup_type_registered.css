@@ -1,0 +1,8 @@
+.popup_type_registered {
+    display: none; /* flex чтобы посмотреть результат*/
+}
+
+.popup_type_registered > .popup__content {
+    width: 430px;
+    min-height: 182px;
+}

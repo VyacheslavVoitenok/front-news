@@ -1,0 +1,9 @@
+.header__items_type_white {
+  background: transparent;
+}
+
+@media screen and (max-width: 550px) {
+  .header__items_type_white {
+      background-color: rgba(0, 0, 0, .9);
+  }
+}

@@ -1,0 +1,7 @@
+.article-card__icon_type_delete {
+    background: url(../../../images/Delete-icon-normal.png) center no-repeat;
+}
+
+.article-card__icon_type_delete:hover {
+    background: url(../../../images/Delete-icon-hover.png) center no-repeat;
+}

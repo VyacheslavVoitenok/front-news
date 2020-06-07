@@ -1,0 +1,17 @@
+.storage__subtitle {
+    margin: 3vh auto 2vw 7vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: rgba(26, 27, 34, 0.5);
+}
+
+@media screen and (max-width: 840px) {
+    .storage__subtitle {
+        margin-left: 5vw;
+        margin-bottom: 1vw;
+        font-size: 0.9rem;
+    }
+}

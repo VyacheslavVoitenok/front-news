@@ -1,0 +1,5 @@
+@import url('./_is-hidden/link_is-hidden.css');
+
+.link {
+    text-decoration: none;
+}
